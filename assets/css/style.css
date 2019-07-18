@@ -1,0 +1,47 @@
+#pictureLinks{
+    width:auto;
+     height:150px;
+     position:relative;
+     margin:50px;
+    justify-content: center;
+}
+#headercontainer{
+    margin-bottom:200px;
+}
+
+.container{
+    position:relative;
+    background:white;
+    padding:5px;
+    max-width:960px;
+    height:800px;
+    border:solid gainsboro;
+    box-sizing:content-box;
+    overflow: auto;
+    justify-content: center;
+
+}
+
+#pictureBtns{
+    width:50px;
+    background-color:teal;
+    margin-top:75px;
+    position:absolute;
+    width:200px;
+    margin-left:auto;
+}
+
+#pictures{
+    margin:auto;
+    height:100px;
+    width:auto;
+    padding: 0px;
+    position:absolute;
+}
+#header5{
+    background:teal; height:100px;width:100%;font-size:30px; color:white;padding-top:25px;padding-left:0px;min-width:165px
+}
+
+footer{
+    background:grey; height:75px;position:static;border-top:solid teal 10px;margin-top:20%
+}
