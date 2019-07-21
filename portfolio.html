@@ -21,7 +21,7 @@
 
 </head>
 
-<Body background="papyrus.png">
+<Body background="assets/images/papyrus.png">
     <div id="headerContainer" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm"
         style="width:100%;padding:0px !important">
         <div class="col-lg-3 col-md-1 col-xs-0"></div>
@@ -30,9 +30,9 @@
                 John Mateer</h5>
         </div>
 
-        <div class="col-lg-2 col-md-3 col-xs-12" style="height:10px;padding:0px"></div>
-        <div class="col-lg-5 col-md-4 col-xs-12" style="padding:0">
-            <nav class="my-2 my-md-0 mr-md-3" style="justify-content: center; display:flex; line-height: 10px;">
+        <div class="col-lg-2 col-md-3 col-xs-12" id="headerSpacer"></div>
+        <div class="col-lg-5 col-md-4 col-xs-12">
+            <nav class="my-2 my-md-0 mr-md-3" id="navButtons">
                 <a id="aboutMe" class="p-2 text-dark" href="index.html">About me</a>
                 <a id="contact" class="p-2 text-dark" href="contact.html">Contact</a>
                 <a id="portfolio" class="p-2 text-dark" href="portfolio.html">Portfolio</a>
@@ -46,27 +46,27 @@
         <div class="row">
             <div class="col-lg-6 col-md-4 col-xs-12">
                 <div id="pictureLinks">
-                    <img id="pictures" class="picture11" src="bar.jpg">
-                    <button type="button" id="pictureBtns" class="btn btn-primary "
-                        >Info</button>
+                    <img id="picture1" class="pictures" src="assets/images/crystalImage.png">
+                    <button  onclick="location.href='https://jjmateer.github.io/Crystal-Collector-Game/'" type="button" id="pictureBtns" class="btn btn-primary "
+                        >Crystal-Collector-Game</button>
                 </div>
                 <div id="pictureLinks">
-                    <img id="pictures" class="picture33" src="headphones.jpg"> 
-                    <button type="button" id="pictureBtns" class="btn btn-primary ">Info</button>
+                    <img id="picture2" class="pictures" src="assets/images/PhsychicImage.png"> 
+                    <button onclick="location.href='https://jjmateer.github.io/Phsychic-game/'" type="button" id="pictureBtns" class="btn btn-primary ">Phsychic-Game</button>
                 </div>
                 <div id="pictureLinks">
-                    <img id="pictures" class="picture55" src="tree.jpg"> 
-                    <button type="button" id="pictureBtns" class="btn btn-primary ">Info</button>
+                    <img id="picture3" class="pictures" src="assets/images/triviaImage.png"> 
+                    <button onclick="location.href='https://jjmateer.github.io/Trivia-game/'" type="button" id="pictureBtns" class="btn btn-primary ">Fast-Food-Trivia</button>
                 </div>
             </div>
 
             <div class="col-lg-6 col-md-4 col-xs-0">
                 <div id="pictureLinks">
-                    <img id="pictures" class="picture22" src="china.jpg"> 
-                    <button type="button" id="pictureBtns" class="btn btn-primary ">Info</button>
+                    <img id="picture4" class="pictures" src="assets/images/headphones.jpg"> 
+                    <button onclick="location.href='https://jjmateer.github.io/Giftastic/'" type="button" id="pictureBtns" class="btn btn-primary ">Giftastic</button>
                 </div>
                 <div id="pictureLinks">
-                    <img id="pictures" class="picture44" src="horse.jpg"> 
+                    <img id="picture5" class="pictures" src="assets/images/horse.jpg">
                     <button type="button" id="pictureBtns" class="btn btn-primary ">Info</button>
                 </div>
             </div>

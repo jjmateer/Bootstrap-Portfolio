@@ -1,7 +1,4 @@
-#containerRow{
-    margin-left:25px;
-    margin-right:25px;
-}
+
 
 #pictureLinks{
     width:auto;
@@ -11,19 +8,24 @@
     justify-content: center;
 }
 #headerContainer{
-    margin-bottom:200px;
+    margin-bottom:100px;
     margin-left:0px;
     margin-right:0px;
-    width:105%;
+    width:100%;
+    padding:0px !important;
 }
 #containerHeader{
-    border-bottom:solid gainsboro ;color:teal;height:50px;margin-top:10px;
+    border-bottom:solid gainsboro ;
+    color:teal;
+    height:50px;
+    margin-top:10px;
 }
 #mainContainer{
     position:relative;
     background:white;
-    padding:10px;
+    padding:25px;
     max-width:960px;
+    width:75%;
     height:auto;
     border:solid gainsboro;
     box-sizing:content-box;
@@ -64,6 +66,8 @@ footer{
      position:static;
      border-top:solid teal 10px;
      margin-top:20%;
+     margin-bottom:0px;
+     width:100%;
 }
 
 #aboutMe{
@@ -81,4 +85,31 @@ footer{
     margin-left:7.5%;
     padding:25px;
 }
+#navButtons{
+    justify-content: center;
+     display:flex;
+      line-height: 10px;
+}
 
+#headerDiv{
+    text-align: center;
+    padding:0px;
+}
+#messageInput{
+    height:200px;
+}
+.pictures{
+    height:100px;
+    width:200px;
+    position:absolute;
+}
+#pictureBtns{
+    margin:0px;
+    position:absolute;
+    margin-top:75px;
+}
+#mainP{
+    position:Absolute;
+    margin:40px;
+    font-size:25px;
+}

@@ -19,18 +19,17 @@
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
-<Body background="papyrus.png">
-    <div id="headerContainer" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm"
-        style="width:100%;padding:0px !important">
+<Body background="assets/images/papyrus.png">
+    <div id="headerContainer" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
         <div class="col-lg-3 col-md-1 col-xs-0"></div>
         <div class="col-lg-1 col-md-3 col-xs-12" style="text-align: center;padding:0px;">
             <h5 class="my-0 mr-md-auto font-weight-normal" id="header5">
                 John Mateer</h5>
         </div>
 
-        <div class="col-lg-2 col-md-3 col-xs-12" style="height:10px;padding:0px"></div>
-        <div class="col-lg-5 col-md-4 col-xs-12" style="padding:0">
-            <nav class="my-2 my-md-0 mr-md-3" style="justify-content: center; display:flex; line-height: 10px;">
+        <div class="col-lg-2 col-md-3 col-xs-12" id="headerSpacer"></div>
+        <div class="col-lg-5 col-md-4 col-xs-12">
+            <nav class="my-2 my-md-0 mr-md-3" id="navButtons">
 
                 <a id="aboutMe" class="p-2 text-dark" href="index.html">About me</a>
                 <a id="contact" class="p-2 text-dark" href="contact.html">Contact</a>
@@ -40,17 +39,17 @@
         </div>
     </div>
     <div class="row"id="containerRow">    
-        <div class="container" id="mainContainer">
+        <div class="container" id="mainContainer" style="height:650px !important;">
         <h5 id="containerHeader">Contact</h5>
-            <div class="form-group" style="width:100%">
+            <div class="form-group">
                     Name:
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="nameInput" placeholder="name@example.com">
                 
                     Email:
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
                 
                     Message:
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" style="height:200px;">
+                <input type="email" class="form-control" id="messageInput" placeholder="name@example.com">
                 <br>
                 <input class="btn btn-primary" type="submit" value="Submit" style="background-color:Teal">
             </div>
